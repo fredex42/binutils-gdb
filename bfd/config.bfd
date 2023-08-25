@@ -782,7 +782,10 @@ case "${targ}" in
     targ_defvec=i386_elf32_vxworks_vec
     targ_underscore=yes
     ;;
-
+  i[3-7]86-*-silly*)
+    targ_defvec=i386_elf32_vec
+    targ_selvecs=
+    targ64_selvecs=x86_64_elf64_vec
   ia16-*-elf)
     targ_defvec=i386_elf32_vec
     targ_selvecs="i386_msdos_vec i386_aout_vec"

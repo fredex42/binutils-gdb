@@ -420,6 +420,7 @@ i[3-7]86-*-moss*)	targ_emul=i386moss
 i[3-7]86-*-silly*)	targ_emul=elf_i386_silly
 			targ_extra_emuls=elf_i386
 			targ64_extra_emuls="elf_x86_64_silly elf_x86_64"
+			;;
 x86_64-*-silly*)
 			targ_emul=elf_x86_64_silly
 			targ_extra_emuls="elf_i386_silly elf_x86_64 elf_i386"

@@ -217,6 +217,7 @@ ALL_EMULATION_SOURCES = \
 	eelf32_sparc_sol2.c \
 	eelf32_sparc_vxworks.c \
 	eelf32_spu.c \
+	eelf_i386_silly.c \
 	eelf32_tic6x_be.c \
 	eelf32_tic6x_elf_be.c \
 	eelf32_tic6x_elf_le.c \
@@ -454,6 +455,7 @@ ALL_64_EMULATION_SOURCES = \
 	eelf64rdos.c \
 	eelf64tilegx.c \
 	eelf64tilegx_be.c \
+	eelf_x86_64_silly.c \
 	eelf_mipsel_haiku.c \
 	eelf_x86_64.c \
 	eelf_x86_64_cloudabi.c \
